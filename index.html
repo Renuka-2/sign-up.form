@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Form Exercise
+    </title>
+    <style>
+      .headline{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: #1b1b32;
+    margin: 0 auto;
+}
+#registrationdiv{
+    color: white;
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.inputstyle{
+    background-color: #0a0a23;
+    width: 100%;
+    color: white;
+}
+#div{
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+#option{
+    cursor: pointer;
+}
+#submit{
+    margin:40px 400px;
+    Padding:10px;
+    cursor: pointer;
+    background-color: #1b1b32;
+    color: white;
+    border-color: white;
+    width:30%;
+    text-align:center;
+}
+#submit:hover{
+    background-color: grey;
+    color: #0a0a23;
+}
+
+    </style>
+</head>
+<body>
+ <h1>Registration Form</h1>
+   <p class="headline">Please fill out this form with the required information</p>
+     <div id="registrationdiv">
+        <form method="post">
+          <p>
+            Enter Your First Name
+          </p>
+          <input type="text"  class="inputstyle" required/>
+          <p>
+            Enter Your Last Name
+          </p>
+          <input type="text"  class="inputstyle" required>
+          <p>
+            Enter Your Email
+          </p>
+          <input type="mail" class="inputstyle" required>
+          <p>
+            Create a New Password
+          </p>
+          <input type="password" class="inputstyle" required>
+        </div>
+        <hr width="70%" size="2" align="center" color="grey">
+        <div id="div">
+            <p>
+            <input type="radio" name="Account" required/><span>Personal Account</span>
+            </p>
+            <p>
+            <input type="radio" name="Account" required/> <span>Business Account</span>
+            </p>
+            <p>
+            <input type="checkbox" required/><span>I accept the <u id="option">terms and conditions</u></span>
+            </p>
+        </div>
+        <hr width="70%" size="2" align="center" color="grey">
+        <div id="div">
+            <p>Upload a Profile Picture:</p>
+            <input type="file" class="inputstyle"/>
+            <p>Input your age (years):</p>
+            <input type="age" class="inputstyle"/>
+            <p>How did you here about us?</p>
+            <select style="width:100%">
+                <option>(select one)</option>
+                <option>Free CodeCamp News</option>
+                <option>Free CodeCamp Youtube Channel</option>
+                <option>Free cCodeCamp Forum</option>
+                <option>Other</option>
+            </select>
+            <p>Provide a bio</p>
+            <textarea placeholder="i like coding on the beaching" class="inputstyle"></textarea><br/>
+  <button id="submit"><b>Submit</b></button>
+  </div>
+</form>
+</body>
+</html>
+

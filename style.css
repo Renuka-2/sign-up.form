@@ -1,0 +1,51 @@
+.headline{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: #1b1b32;
+    margin: 0 auto;
+}
+#registrationdiv{
+    color: white;
+    margin: 0 auto;
+    width:20%;
+    padding: 20px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.inputstyle{
+    background-color: #0a0a23;
+    width: 100%;
+    color: white;
+}
+#div{
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+}
+#option{
+    cursor: pointer;
+}
+#submit{
+    margin-top: 30px;
+    width: 100%;
+    padding:1px 6px;
+    cursor: pointer;
+    background-color: #1b1b32;
+    color: white;
+    border-color: white;
+
+}
+#submit:hover{
+    background-color: white;
+    color: #0a0a23;
+}
+.inputdiv{
+    margin-top: 0px;
+}
+
